@@ -39,7 +39,6 @@ var Themes = []any{
 	Option("", nil, "winter"),
 }
 
-
 const TopicPickTheme = "isles-pick-theme"
 
 func ThemePicker(class string, defaultTheme string) (hlive.AttrsLockBox, *hlive.ComponentMountable) {
